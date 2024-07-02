@@ -10,7 +10,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.container{
+.container-one{
     background-color:#7fc0ca;
     color:#ffffff ;
     padding-bottom :80px;
@@ -37,7 +37,7 @@
     margin-left: 70px;
     color:white;
     font-size: 20px;
-    word-spacing: 3px;
+    word-spacing: 1px;
     line-height: 30px;
     padding-bottom:50px;
 }
@@ -67,7 +67,7 @@
     font-family:  "Montserrat", sans-serif;
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: normal;
     letter-spacing: 1px;
     margin: 70px 19.5px 0px;
@@ -85,14 +85,29 @@
     gap:20px;
     justify-content: center;
     margin-top: 27px;
-   
+    
 }
 .img-content{
     overflow: hidden; 
+    position: relative;
 }
 .img-content:hover img{
     transform: scale(1.1);
     transition: 1s;
+    
+}
+.img-cont::before{
+    position: absolute;
+    content: "";
+    background-color: #111111;
+    /* width: 100%; */
+    /* height: 100%; */
+    top: 0%;
+    left: 0%;
+
+}
+.img-content:hover ::before{
+    opacity: 1;
 }
 .container-two{
     background-color: #333333;
@@ -108,19 +123,19 @@
     padding-left:185px ;
     padding-top: 70px;
 }
-.pink{
+.display1{
     display: flex;
     column-gap:30px;
     /* padding-left: 188px; */
     padding-top: 30px;
     justify-content: center;
 }
-.blue{
+.feedback{
     background-color: white;
     padding-top:20px;
    padding: 10px;
 }
-.head1{
+.header4{
     font-family:"Montserrat", sans-serif ;
     font-size: 20px;
     letter-spacing: 1px;
@@ -129,17 +144,17 @@
     padding-left:22px;
 }
 .smallhead1{
-    font-family: "Montserrat", sans-serif ;
+    font-family: "Montserrat", sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
-    margin:20px 202.137px 0px 0px ;
+    margin:20px 202.137px 0px 0px;
     color: #7fc0ca;
     padding-left: 22px;
     font-size: 16px;
 
 }
 .para-three{
-    font-family: "open sans", sans-serif;
+    font-family: "Open sans", sans-serif;
     font-weight: normal;
     font-size:18px;
     margin: 20px 0pxx 0px;
@@ -148,7 +163,7 @@
     padding-top:15px;
     word-spacing: 1px;
 }
-.small-line1{
+.date{
     padding-top: 5px;
     padding-bottom: 25px;
     font-size: 14px;
@@ -157,4 +172,196 @@
     margin: 30px 0px 0px;
     font-weight: normal;
     padding-left:22px ;
+}
+.header5{
+
+    font-family:"Montserrat", sans-serif ;
+    text-align: center;
+    color: black;
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 70px 19.5px 0px;
+}
+.para-four{
+
+    font-family:"Open sans", sans-serif ;
+    font-weight:normal;
+    color: black;
+    font-size:18px;
+    padding-left: 405px;
+    padding-top: 20px;
+}
+.para-five{
+  
+    font-family:"Open sans", sans-serif ;
+    font-weight:normal;
+    color: black;
+    font-size:18px;
+    padding-left: 580px;
+    padding-top: 5px;
+} 
+.smallhead2{
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin-top: 25px;
+    text-align: center; 
+    font-size: 19px; 
+    font-weight:normal;
+} 
+.smallhead3{
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    margin-top: 5px;
+    text-align: center; 
+    font-size: 19px; 
+    font-weight:normal;
+  }
+.grid-content{
+    display:grid;
+    grid-template-columns:repeat(3,370px);
+    grid-template-rows:repeat(2,370px);
+    gap:20px;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.img-cont{
+    
+    overflow: hidden; 
+}
+.img-cont:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-three{
+background-color: #333333;
+height: 800px;
+}
+.since{
+font-size: 36px;
+font-family:"Montserrat", sans-serif ;
+font-weight: normal;
+color:#ffffff;
+padding-left: 200px;
+padding-top: 85px;
+}
+.icon{
+    font-size: 50px;
+    color: #7fc0ca;
+    padding-left: 200px;
+    padding-top: 10px;  
+}
+.email{
+    font-family:"Montserrat", sans-serif  ;
+    font-weight: normal;
+    font-size: 16px;
+    color:#ffffff;
+    padding-left:200px;
+    padding-top:25px ;
+}
+.sample{
+font-family:"Montserrat", sans-serif  ;
+font-weight:bolder;
+font-size: 20px;
+color:#ffffff;
+padding-left:200px;
+}
+.line{
+  width: 530px; 
+  margin-left: 200px;
+  margin-top: 10px; 
+}
+.click{
+    font-family:"Open sans", sans-serif  ;
+    font-weight:normal;
+    font-size: 18px;
+    color:#ffffff;
+    padding-left:200px;
+    padding-top: 90px;
+}
+.display2{
+    display: flex;
+}
+.con{
+    font-size:20px;
+font-family:"Montserrat", sans-serif ;
+font-weight: normal;
+color:#ffffff;
+padding-left: 35px;
+padding-top: 85px;
+}
+.walnut{
+    font-family:"Open sans" , sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 20px 0px 0px;
+    padding-left: 35px;
+    color:#ffffff;
+}
+.number{
+    font-family:"Open sans" , sans-serif;
+    font-weight: normal;
+    font-size:24px;
+    padding-top: 20px;
+    margin: 20px 0px 0px;
+    padding-left: 35px;
+    color:#ffffff;
+}
+.text{
+    font-family:"Open sans", sans-serif  ;
+    font-weight:normal;
+    font-size: 18px;
+    color:#ffffff;
+    margin: 71px 0px 0px;
+    padding-left:40px ;
+    padding-top:120px;
+}
+.social{
+    font-size:20px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: normal;
+    color:#ffffff;
+    padding-left: 80px;
+    padding-top: 85px;
+}
+.icon2{
+    font-size: 37px;
+    color: #7fc0ca;
+    padding-left: 80px;
+    padding-top: 30px; 
+    font-size: normal;
+    letter-spacing: 6px;
+}
+.image16{
+height: 220px;
+width:230px;
+padding-left: 80px;
+padding-top: 70px;
+margin: 125px 50px 0px 0px;
+}
+.select{
+font-size: 14px;
+font-family:"Open sans", sans-serif ;
+font-weight: normal;
+margin: 49px 361.5px;
+color: #ffffff;
+padding-left: 230px;
+padding-top: 70px;
+}
+.link a{
+    font-family: "Open sans" , sans-serif;
+    font-size: normal;
+    font-size: 12.8px;
+    color:#C7E5EA; 
+   padding-top:70px;
+}
+.link{
+    color: white;
+    padding-top:50px;
+    padding-left: 610px;
+    font-family: "Open sans" , sans-serif;
+    font-size: 12.8px;
+    font-size: normal;
+ 
 }
