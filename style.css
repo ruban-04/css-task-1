@@ -85,33 +85,37 @@
     gap:20px;
     justify-content: center;
     margin-top: 27px;
-    
 }
+
 .img-content{
     overflow: hidden; 
     position: relative;
 }
-.img-content:hover img{
+ 
+.img-content img:hover{             
     transform: scale(1.1);
     transition: 1s;
-    
+    opacity: 0.5;
+    z-index: 1;
 }
-.img-cont::before{
-    position: absolute;
-    content: "";
-    background-color: #111111;
-    /* width: 100%; */
-    /* height: 100%; */
-    top: 0%;
-    left: 0%;
+ 
 
-}
-.img-content:hover ::before{
+
+.img-content::before{
+    background-color:rgba(0, 0, 0, 0.550);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     opacity: 1;
+    z-index: -1;
 }
+
 .container-two{
     background-color: #333333;
-    padding-bottom: 80px;
+    padding-bottom: 75px;
     margin-bottom: 20px;
 }
 .header3{
@@ -131,9 +135,10 @@
     justify-content: center;
 }
 .feedback{
-    background-color: white;
+    background-color:white;
+    height: 355px;
     padding-top:20px;
-   padding: 10px;
+    padding: 10px;
 }
 .header4{
     font-family:"Montserrat", sans-serif ;
@@ -142,6 +147,7 @@
     font-weight: normal;
     color:#111111;
     padding-left:22px;
+    padding-top: 20px;
 }
 .smallhead1{
     font-family: "Montserrat", sans-serif;
@@ -158,13 +164,14 @@
     font-weight: normal;
     font-size:18px;
     margin: 20px 0pxx 0px;
+    line-height:29px;
     color:#111111;
     padding: 22px;
-    padding-top:15px;
+    padding-top:18px;
     word-spacing: 1px;
 }
 .date{
-    padding-top: 5px;
+    padding-top: 3px;
     padding-bottom: 25px;
     font-size: 14px;
     font-family:"Montserrat", sans-serif ;
@@ -227,24 +234,21 @@
     margin-bottom: 30px; 
 }
 .img-cont{
-    
+    position:relative;
     overflow: hidden; 
 }
-.img-cont:hover img{
-    transform: scale(1.1);
-    transition: 1s;
-}
+
 .container-three{
-background-color: #333333;
-height: 800px;
+    background-color: #333333;
+    height: 800px;
 }
 .since{
-font-size: 36px;
-font-family:"Montserrat", sans-serif ;
-font-weight: normal;
-color:#ffffff;
-padding-left: 200px;
-padding-top: 85px;
+    font-size: 36px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: normal;
+    color:#ffffff;
+    padding-left: 200px;
+    padding-top: 85px;
 }
 .icon{
     font-size: 50px;
@@ -261,16 +265,16 @@ padding-top: 85px;
     padding-top:25px ;
 }
 .sample{
-font-family:"Montserrat", sans-serif  ;
-font-weight:bolder;
-font-size: 20px;
-color:#ffffff;
-padding-left:200px;
+    font-family:"Montserrat", sans-serif  ;
+    font-weight:bolder;
+    font-size: 20px;
+    color:#ffffff;
+    padding-left:200px;
 }
 .line{
-  width: 530px; 
-  margin-left: 200px;
-  margin-top: 10px; 
+    width: 530px; 
+    margin-left: 200px;
+    margin-top: 10px; 
 }
 .click{
     font-family:"Open sans", sans-serif  ;
@@ -285,11 +289,11 @@ padding-left:200px;
 }
 .con{
     font-size:20px;
-font-family:"Montserrat", sans-serif ;
-font-weight: normal;
-color:#ffffff;
-padding-left: 35px;
-padding-top: 85px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: normal;
+    color:#ffffff;
+    padding-left: 35px;
+    padding-top: 85px;
 }
 .walnut{
     font-family:"Open sans" , sans-serif;
@@ -334,27 +338,27 @@ padding-top: 85px;
     letter-spacing: 6px;
 }
 .image16{
-height: 220px;
-width:230px;
-padding-left: 80px;
-padding-top: 70px;
-margin: 125px 50px 0px 0px;
+    height: 220px;
+    width:230px;
+    padding-left: 80px;
+    padding-top: 70px;
+    margin: 125px 50px 0px 0px;
 }
 .select{
-font-size: 14px;
-font-family:"Open sans", sans-serif ;
-font-weight: normal;
-margin: 49px 361.5px;
-color: #ffffff;
-padding-left: 230px;
-padding-top: 70px;
+    font-size: 14px;
+    font-family:"Open sans", sans-serif;
+    font-weight: normal;
+    margin: 49px 361.5px;
+    color: #ffffff;
+    padding-left: 230px;
+    padding-top: 70px;
 }
 .link a{
     font-family: "Open sans" , sans-serif;
     font-size: normal;
     font-size: 12.8px;
     color:#C7E5EA; 
-   padding-top:70px;
+    padding-top:70px;
 }
 .link{
     color: white;
